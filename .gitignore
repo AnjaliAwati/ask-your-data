@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node (for the frontend later)
+node_modules/
+dist/
+
+# Generated data
+backend/data/*.db
+
+# Editor and OS
+.vscode/
+.DS_Store
